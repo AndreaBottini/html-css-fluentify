@@ -7,11 +7,36 @@
 body {
   font-family: 'Roboto', sans-serif;
   background-color: #fff;
+  color: #fff;
 }
 
 .page-header {
   background-color: #0D325A;
   height: 500px;
+  background-image: url(../img/oldman.png);
+  background-size: 55%;
+  background-repeat: no-repeat;
+  background-position: 106% 106%;
+}
+
+.header-nav {
+  width: 85%;
+  margin: 0 auto;
+  line-height: 80px;
+}
+
+.header-nav::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.header-nav-left {
+  float: left;
+}
+
+.header-nav-right {
+  float: right;
 }
 
 .page-main {
