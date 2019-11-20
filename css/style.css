@@ -58,6 +58,10 @@ body {
   list-style: none;
 }
 
+.list-inline-right {
+  list-style: none;
+}
+
 .bannerbig {
   width: 85%;
   height: 420px;
@@ -77,7 +81,7 @@ body {
   margin-bottom: 40px;
 }
 
-a.button {
+.button {
   text-decoration: none;
   display: inline-block;
   line-height: 20px;
@@ -86,9 +90,23 @@ a.button {
   text-transform: uppercase;
   padding: 20px;
 }
+.button-right {
+  text-decoration: none;
+  display: inline-block;
+  line-height: 20px;
+  color: #fff;
+  border-radius: 5px;
+  text-transform: uppercase;
+  padding: 12px;
+}
+
+.button-login {
+  background-color: #0D325A;
+  border: 1px solid #fff;
+}
 
 .button-green {
-  background-color: #7CBB02
+  background-color: #7CBB02;
 }
 
 .page-main {
