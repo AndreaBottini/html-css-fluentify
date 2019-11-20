@@ -67,13 +67,28 @@ body {
 .bannerbig-testo {
   width: 35%;
   position: absolute;
-  top: 40%;
-  transform: translateY(-40%);
+  top: 30%;
+  transform: translateY(-30%);
 }
 
 .bannerbig-testo h1 {
   font-size: 48px;
   color: #fff;
+  margin-bottom: 40px;
+}
+
+a.button {
+  text-decoration: none;
+  display: inline-block;
+  line-height: 20px;
+  color: #fff;
+  border-radius: 5px;
+  text-transform: uppercase;
+  padding: 20px;
+}
+
+.button-green {
+  background-color: #7CBB02
 }
 
 .page-main {
