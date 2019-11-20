@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #fff;
+}
+
+.page-header {
+  background-color: #0D325A;
+  height: 500px;
+}
+
+.page-main {
+  background-color: red;
+  height: 800px;
+}
+
+.page-footer {
+  background-color: yellow;
+  height: 200px;
+}
